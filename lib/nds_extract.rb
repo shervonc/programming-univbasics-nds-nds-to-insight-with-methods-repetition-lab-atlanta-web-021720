@@ -54,7 +54,8 @@ def total_gross(source)
   while d_index < names.length do
   
   r_total = all_dir[d_index]
-  g_total += r_total[d_index]
+  n = names[d_index]
+  g_total += n[d_index]
     d_index +=1
   end
   pp g_total 
