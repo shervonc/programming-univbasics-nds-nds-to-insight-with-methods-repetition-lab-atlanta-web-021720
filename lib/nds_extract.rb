@@ -49,8 +49,10 @@ def total_gross(source)
   g_total = 0
   d_index = 0
   
-  while d_index < source.length &&  |list_of_directors(source)| do 
-   row_total = directors_totals(source)
+  while d_index < source.length do 
+    
+   row_name = list_of_directors(source)
+   row_total = directors_totals(row_name)
     g_total += row_total
     
         d_index +=1
