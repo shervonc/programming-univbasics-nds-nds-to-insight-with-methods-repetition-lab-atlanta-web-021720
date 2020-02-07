@@ -51,8 +51,7 @@ def total_gross(source)
   
   while d_index < source.length do
     row_total =directors_totals(source)
-    g_total += list_of_directors(row_total)
-    
+    g_total += row_total
     
         d_index +=1
   end
