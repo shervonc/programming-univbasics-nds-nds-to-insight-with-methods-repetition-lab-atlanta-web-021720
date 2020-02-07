@@ -52,13 +52,13 @@ def total_gross(source)
   names = list_of_directors(source)
   all_dir = directors_totals(source)
   while d_index < names.length do
-  
+  n_index
   r_total = all_dir[d_index]
-  n = names[d_index]
-  g_total += n[d_index]
+  n = names[n_index]
+  g_total += all_dir[n]
     d_index +=1
   end
-  pp g_total 
+   g_total 
 end
 
 
