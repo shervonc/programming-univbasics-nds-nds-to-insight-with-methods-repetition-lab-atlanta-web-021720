@@ -33,7 +33,7 @@ def list_of_directors(source)
     list.push(d_name)
     i += 1
   end
-pp  list
+  list
 end
 
 def total_gross(source)
